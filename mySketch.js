@@ -51,7 +51,7 @@ async function setup() {
   } : VIDEO, { flipped: !isMobile });
   cam.hide();
 
-  await pandemonium.setup();
+  await pandemonium.setup(1920, 1080);
 }
 
 let seed = 0;
